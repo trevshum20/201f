@@ -1,0 +1,116 @@
+nav {
+    /* Style the navigation bar */
+    text-align: right;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the navigation links */
+nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+body {
+    font-family: Tahoma, Helvetica, sans-serif;
+    background-color: rgb(255, 246, 217);
+    color: rgb(0, 0, 0);
+    /*font color*/
+    text-align: center;
+}
+
+img {
+    display: block;
+    /*each image on its own line*/
+    /*content*/
+    padding: 100 px;
+    /*space between each thing*/
+    /*border around images*/
+    margin: 0px;
+    border: 15px solid rgb(255, 253, 253);
+}
+
+video {
+    display: block;
+    /*each image on its own line*/
+    /*content*/
+    padding: 5px;
+    /*space between each thing*/
+    /*border around images*/
+    margin: auto;
+
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+a:visited {
+    color: brown;
+}
+
+
+.common {
+    border: 2px solid white;
+    position: absolute;
+}
+
+.nav {
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: black;
+}
+
+.footer {
+    position: fixed;
+    background-color: black;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    text-align: center;
+}
+
+.content {
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+
+
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#images {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#monsters {
+    text-align: left;
+}
+
+#anchor {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
